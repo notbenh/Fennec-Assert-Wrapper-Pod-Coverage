@@ -19,7 +19,7 @@ Version 0.01
 
 our $VERSION = '0.01';
 
-for my $name ( qw{} ) {
+for my $name ( qw{pod_coverage_ok all_pod_coverage_ok all_modules} ) {
     no strict 'refs';
     next unless Test::Pod::Coverage->can( $name );
     tester( $name => tb_wrapper( \&{ 'Test::Pod::Coverage::' . $name }));
