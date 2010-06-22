@@ -6,3 +6,4 @@ lib/Fennec/Assert/Wrapper/Pod/Coverage.pm
 t/manifest.t
 t/Fennec.t
 t/Fennec/Assert/Wrapper/Pod/Coverage.pm
+ignore.txt
